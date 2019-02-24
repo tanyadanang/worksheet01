@@ -1,0 +1,308 @@
+{
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("images/bghoe.jpg");
+  background-size: contain;
+}
+
+.header {
+  background-color:white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75px;
+  font-weight: 900;
+  display: inline-block;
+  z-index: 10;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  /* border: 1px solid black; */
+}
+
+#logo {
+  font-size: 50px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: aliceblue;
+  width: 150px;
+  /* border: 1px solid black; */
+  display: inline-block;
+  position: fixed;
+  top: 5px;
+  /* left: 10px; */
+  padding: 10px;
+  margin: 0px,0px, 0px, 0px;
+  text-decoration: none; 
+    
+}
+
+.menu {
+  display: inline-block;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  text-decoration-line: none;
+  text-decoration-color: none;
+}
+
+.menu li {
+  display: inline-block;
+  /* border: 1px solid blue; */
+  font-size: 20px;
+  margin-right: 20px;
+  text-decoration-line: none;
+  text-decoration-color: none;
+}
+
+p {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size:  19px;
+
+}
+.menu li a {
+  text-decoration-line: none;
+  text-decoration-color: none;
+}
+
+.menu li a:hover{
+  background-color:#FFECB3;
+}
+
+.home {
+  margin: 100px auto;
+  width: 95%; 
+}
+
+.banner {
+  height: 400px;
+  background-image: url("./images/header01.jpg");
+  background-size: 100%;
+  background-size: full;
+  text-align: left;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  
+}
+
+table{
+
+  font-family: 'Barlow Semi Condensed', sans-serif;
+ margin: 100px auto;
+ 
+}
+
+
+#logo{
+  padding-top: 7px;
+  padding-bottom: 5px;
+  margin-left: 40px;
+}
+
+.logo-container #logo-top{
+  margin-bottom: 0;
+}
+
+.logo-container #logo{
+  margin-left: 0;
+}
+
+.logo-container{
+  display: inline;
+}
+
+
+.bannertext {
+  position: absolute;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+ 
+}
+
+.bannertext h2 {
+  margin-left: 20px;
+  font-size: 50px;
+  width: 51%;
+  color: white;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.bannertext h3 {
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+ 
+}
+
+.bannertext h4 {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.about {
+  text-align: justify;
+  font-size: 25px;
+  margin: 60px auto;
+  width: 95%;
+  height: 300px;
+  /* border: 1px solid black; */
+}
+
+
+.video {
+  margin: 60px auto;
+  width: 95%;
+  height: 300px;
+
+}
+.produk {
+  margin: 20px auto;
+  width: 95%;
+  /* border: 1px solid black; */
+  text-align: left;
+  font-size: 20px;
+  height: 1400px;
+  clear: both;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+li {
+  display: block;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Barlow Semi Condensed';
+}
+button{
+  padding: 10x;
+
+}
+
+button:hover{
+  background-color: #FFECB3;
+}
+
+.bottom-border{
+  border-bottom: 1px solid #7e5f40;
+  padding: 20px 0px;
+}
+
+
+
+
+
+
+
+
+.clients {
+  margin: 20px auto;
+  width: 95%;
+  text-align: center;
+  /* border: 1px solid black; */
+  clear: both;
+  height: 600px;
+  
+}
+
+.media {
+  margin: 20px auto;
+  width: 95%;
+  height: 600px;
+  text-align: center;
+  /* border: 1px solid black; */
+  clear: both;
+}
+
+.media {
+  background-color: rgb(153, 102, 255, 0.5);
+}
+
+.logo {
+  margin-top: 100px;
+}
+
+#contact {
+  margin: 20px auto;
+  width: 95%;
+  text-align: center;
+  font-family: 'Barlow Semi Condensed';
+  /* border: 1px solid black; */
+}
+
+}
+
+/*form*/
+.form input{
+  width: 50px;
+}
+form {
+  /* color: aliceblue; */
+}
+textarea {
+  width: 20%;
+  height: 140px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type=email] {
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  /* resize: vertical; */
+}
+input[type=submit] {
+  background-color: purple;
+  color: white;
+  height: 50px;
+  width: 10%;
+
+}
+input[type=submit]:hover {
+  background-color: black;
+}
+
+footer {
+  background-color: orange;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 0px;
+  text-align: center;
+  border: 1px solid black;
+
+
+ 
+}
+
+.foottext {
+  display: inline-block;
+
+  margin-top: 15px;
+}

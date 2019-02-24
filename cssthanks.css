@@ -1,0 +1,52 @@
+
+
+.badan {
+    margin-top: 250px;
+
+}
+
+body h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+
+}
+
+body h3{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Barlow Semi Condensed';
+  }
+
+#logo{
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 40px;
+  }
+  
+  .logo-container #logo-top{
+    margin-bottom: 0;
+  }
+  
+  .logo-container #logo{
+    margin-left: 0;
+  }
+  
+  .logo-container{
+    display: inline;
+  }
+  
+.badan h1 {
+    text-align: center;
+    color: black;
+}
+
+.badan h3 {
+    text-align: center;
+    color: black;
+}
